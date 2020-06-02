@@ -1,0 +1,1 @@
+protoc todo-service.proto -I=/usr/local/include/grpcproto -I=.  --go_out=plugins=grpc:.
